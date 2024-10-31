@@ -1,27 +1,51 @@
-body {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    color: #333;
-    line-height: 1.5;
+.back {
+    width: 600px;
+    height: 400px;
+    background: url("/Users/dimasaaranin/Desktop/WTII/Lab3/Task10/img/bg.jpg");
+    position: relative;
 }
 
-.title {
-    font-size: 40px;
-    color: #f03333;
-    line-height: 1.2;
-    text-transform: uppercase;
+div img {
+    position: absolute;
 }
 
-.subtitle {
-    font-size: 30px;
-    color: #12ac11;
-    line-height: 1.2;
-    text-decoration: underline;
+.asteroid {
+    top: 80px;
+    right: 110px;
 }
 
-.list {
-    font-size: 20px;
-    color: #444;
-    font-style: italic;
-    list-style-type: square;
+.planet1 {
+    top: 23px;
+    left: 186px;
+    z-index: 1;
 }
+
+.planet2 {
+    top: 66px;
+    left: 51px;
+    z-index: 2;
+}
+
+.planet3 {
+    top: 139px;
+    left: 145px;
+    z-index: 3;
+}
+
+.superman { 
+    bottom: 0;
+    right: 36px;
+}
+
+.spaceship {
+    top: 155px;
+    left: 144px;
+    z-index: 2;
+}
+
+.ufo {
+    top: 293px;
+    left: 117px;
+    z-index: 4;
+}
+
